@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Gerador de Senhas</title>
+</head>
+<body>
+    <div id="container">
+        <h1 id="titulo">Gerador de Senhas</h1>
+        <input type="text" id="senhacampo"></input>
+        <div id="checkboxes">
+            <label class="inputs">
+                <input type="number" max="25" min="5" value="6" id="caracteres">
+                Caracteres
+            </label>
+            <label class="inputs">
+                <input type="checkbox" checked id="minusculo">
+                minusculo
+            </label>
+            <label class="inputs">
+                <input type="checkbox" checked id="maiusculo">
+                MAIUSCULO
+            </label>
+            <label class="inputs">
+                <input type="checkbox" checked id="numero">
+                Numeros
+            </label>
+            <label class="inputs">
+                <input type="checkbox" checked id="simbolos">
+                Simbolos
+            </label>
+        </div>
+        <button id="gerarSenha">Gerar</button>
+    </div>
+    <script src="script/gerador.js"></script>
+</body>

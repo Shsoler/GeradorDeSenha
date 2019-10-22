@@ -1,0 +1,71 @@
+html{font-family: 'Montserrat', sans-serif;}
+body{
+    background-color: #5E0A80;
+    color: white;
+}
+#container{
+    width: 40%;
+    background-color: #D261FF;
+    border-radius: 20px;
+    padding: 3%;
+    position: fixed;
+    left: 35%;
+    top:10%;
+}
+#titulo{
+
+    margin-top: 0%;
+}
+#senhacampo{
+    width: 100%;
+    height: 3vh;
+    border-radius: 10px;
+    background-color: #693080;
+    border:2px solid #693080;
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+}
+.inputs{
+    float:left;
+    clear: both;
+
+    margin-top: 3%;
+    margin-left: 5%;
+    width: 100%;
+}
+.inputs input{
+    border:2px solid #693080;
+    background-color: #693080;
+    font-size: 1em;
+    border-radius: 10px;
+    margin-right: 8%;
+
+}
+.inputs:first-child{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.inputs:first-child input{
+    width: 40px;
+    margin-right: 3%;
+    color: white;
+    text-align: center;
+}
+.inputs input[type='checkbox']{
+    transform: scale(2);
+}
+#gerarSenha{
+    border:2px solid #693080;
+    background-color: #693080;
+    font-size: 2em;
+    border-radius: 10px;
+    color: white;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 8%;
+}
+#gerarSenha:active{
+    background-color: #9710CC;
+    color: #693080;
+}
